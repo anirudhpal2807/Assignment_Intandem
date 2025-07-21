@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin Drop with Remarks</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="map"></div>  <!-- Map will render here -->
+        <div id="sidebar" class="sidebar-expanded">
+            <button id="sidebar-toggle" class="sidebar-toggle-btn" title="Collapse sidebar">&#x25C0;</button>
+            <div class="sidebar-header">
+                <span class="sidebar-header-icon">&#128205;</span>
+                <span class="sidebar-header-title">Saved Pins</span>
+            </div>
+            <div id="pin-count" class="sidebar-subtext"></div>
+            <div id="pin-list"></div>  <!-- List of saved pins as cards -->
+        </div>
+        <div id="sidebar-collapsed" class="sidebar-collapsed" style="display:none;">
+            <button id="sidebar-expand" class="sidebar-toggle-btn" title="Expand sidebar">&#x25B6;</button>
+            <div class="sidebar-collapsed-content">
+                <span class="sidebar-header-icon">&#128205;</span>
+                <span id="collapsed-pin-count" class="sidebar-collapsed-count"></span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

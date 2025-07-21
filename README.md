@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Map Pinboard Application
 
 This project is a user-friendly web app that lets you mark locations on a map, add personal notes, and keep track of places that matter to you. It leverages [Leaflet.js](https://leafletjs.com/) for interactive mapping and uses only client-side technologies for a fast, private experience.
@@ -75,3 +76,6 @@ Distributed under the ISC License. See `package.json` for details.
 ---
 
 *Crafted with care using Leaflet.js and OpenStreetMap.* 
+=======
+# Assignment_Intandem
+>>>>>>> 83f6d63b3c2cb0663064885c12a5143aa2679ec0
